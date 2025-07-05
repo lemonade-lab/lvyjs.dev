@@ -41,9 +41,9 @@ echo '[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"' >> ~/.
 source ~/.bash_profile && source ~/.zshrc
 ```
 
-```bash title="安装NodeJS@18.20.3"
-nvm install 18.20.3
-nvm use 18.20.3
+```bash title="安装NodeJS@22"
+nvm install 22
+nvm use 22
 node -v
 npm -v
 ```
@@ -55,9 +55,21 @@ npm -v
 > 示例系统 Ubuntu 24.04 LTS / Debian 12.0 X86 2H2G
 
 ```sh titile="更新系统包"
-sudo apt update
-sudo apt install wget -y
-sudo apt install curl -y
+sudo apt-get update
+sudo apt-get install wget -y
+sudo apt-get install curl -y
+```
+
+```sh title="安装git"
+apt-get install git -y
+```
+
+```sh title="安装chromium"
+apt-get install chromium -y
+```
+
+```sh title="安装字体"
+apt-get install fonts-noto-cjk fonts-noto-color-emoji -y
 ```
 
 ```sh title="安装nvm"
@@ -71,35 +83,43 @@ source ~/.bashrc
 nvm -v
 ```
 
-```bash title="安装NodeJS@18.20.3"
-nvm install 18.20.3
-nvm use 18.20.3
+```sh title="镜像地址（可选）"
+export NVM_NODEJS_ORG_MIRROR="https://npmmirror.com/mirrors/node"
+```
+
+```bash title="安装NodeJS@22"
+nvm install 22
+nvm use 22
 node -v
 npm -v
-```
-
-```sh title="安装git"
-apt install git
-```
-
-```sh title="安装chromium"
-sudo apt install chromium-browser
 ```
 
   </TabItem>
 
   <TabItem value="Centos" label="Centos">
 
-> 示例系统 Centos 8.2 X86 2H2G
+> 推荐 Centos Steam 9
 
-```sh title="确保yum包是最新的"
-sudo yum update -y
-sudo yum install wget -y
-sudo yum install curl -y
+```sh title="确保dnf包是最新的"
+dnf update -y
+dnf install wget -y
+dnf install curl -y
+```
+
+```sh title="安装git"
+dnf install git
+```
+
+```sh title="安装 Chromium"
+dnf  install chromium -y
+```
+
+```sh title="安装字体"
+dnf install google-noto-serif-cjk-fonts
 ```
 
 ```sh title="安装NVM"
-curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.0/install.sh | bash
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.3/install.sh | bash
 ```
 
 ```sh title="添加NVM到环境变量"
@@ -109,23 +129,11 @@ source ~/.bashrc # 刷新环境
 nvm -v # 版本
 ```
 
-> Centos8以下无法使用官方源的Node V18
-
-> 请改用 16.14.0
-
-```bash title="安装NodeJS@18.20.3"
-nvm install 18.20.3
-nvm use 18.20.3
+```bash title="安装NodeJS@22"
+nvm install 22
+nvm use 22
 node -v
 npm -v
-```
-
-```sh title="安装git"
-yum install git
-```
-
-```sh title="安装 Chromium"
-yum  install chromium -y
 ```
 
   </TabItem>
@@ -136,11 +144,11 @@ yum  install chromium -y
 
 1. 安装浏览器： 非推荐系统请自行安装 [Google Chrome](https://www.google.cn/intl/zh-CN/chrome/) / [Edge](https://www.microsoft.com/zh-cn/edge)
 
-2. 安装 Node.js： [Node.js@18.20.3](https://nodejs.org/zh-cn)
+2. 安装 Node.js： [Node.js@22](https://nodejs.org/zh-cn)
 
 > 推荐使用[nvm-setup.exe](https://github.com/coreybutler/nvm-windows/releases)对Node.js进行版本管理，方便切换版本进行开发
 
-> Node.js 版本必须大于16.14.0且双数版本
+> Node.js 版本必须大于18且双数版本
 
 3. 安装 Git： [Git Download for Windows](https://git-scm.com/)
 

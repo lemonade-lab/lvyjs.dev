@@ -111,20 +111,6 @@ yum install nss -y
 yum update nss -y
 ```
 
-### 乱码字体
-
-```sh
-yum groupinstall fonts -y
-```
-
-## Ubuntu/Debian
-
-### 乱码字体
-
-```sh
-apt install -y --force-yes --no-install-recommends fonts-wqy-microhei
-```
-
 ### 社区答案
 
 [打开 Issues](https://github.com/yunzaijs/core/issues)

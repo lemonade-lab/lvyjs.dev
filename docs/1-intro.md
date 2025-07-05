@@ -13,7 +13,7 @@ sidebar_position: 1
 | Project        | Status                    | Description |
 | -------------- | ------------------------- | ----------- |
 | [lvyjs]        | [![lvyjs-s]][lvyjs-p]     | 打包工具    |
-| [create-lvyjs] | [![c-lvyjs-s]][c-lvyjs-p] | 打包工具    |
+| [create-lvyjs] | [![c-lvyjs-s]][c-lvyjs-p] | 开发模板    |
 | [jsxp]         | [![jsxp-s]][jsxp-p]       | React渲染   |
 
 [lvyjs]: https://github.com/lemonade-lab/lvyjs

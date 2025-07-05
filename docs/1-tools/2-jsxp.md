@@ -51,19 +51,10 @@ export default () => {
 }
 ```
 
-```ts title="src/image.tsx"
-//示例 调用jsxp默认截图渲染方法，当然也可以自定义并拓展截图方法
-import React from 'react'
-import { renders, ObtainProps } from 'jsxp'
-import Hello from './hello.tsx'
-export const pictureRender = renders({
-  Hello
-})
-```
-
 ```ts title="src/index.ts"
-import { pictureRender } from './image.tsx'
-const img: Buffer | false = await pictureRender(Hello, {})
+import { renderComponentToBuffer } from 'jsxp'
+import Hello from './hello'
+const img: Buffer | false = await renderComponentToBuffer('/help', Hello, {})
 if (img) {
   // 可fs保存到本地
 }
