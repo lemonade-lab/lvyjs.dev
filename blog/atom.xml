@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://lvyjs.dev/lvyjs.dev/blog</id>
+    <title>LvyJS Blog</title>
+    <updated>2025-04-04T00:00:00.000Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://lvyjs.dev/lvyjs.dev/blog"/>
+    <subtitle>LvyJS Blog</subtitle>
+    <entry>
+        <title type="html"><![CDATA[0.2.18]]></title>
+        <id>https://lvyjs.dev/lvyjs.dev/blog/2025/04/04/releases/0.2.18</id>
+        <link href="https://lvyjs.dev/lvyjs.dev/blog/2025/04/04/releases/0.2.18"/>
+        <updated>2025-04-04T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[更新]]></summary>
+        <content type="html"><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>
+<p>修复路径码</p>
+</li>
+<li>
+<p>修复tsx路径查询失败</p>
+</li>
+<li>
+<p>新增打印信息</p>
+</li>
+</ul>]]></content>
+        <author>
+            <name/>
+            <email>ningmengchongshui@gmail.com</email>
+            <uri>https://github.com/ningmengchongshui</uri>
+        </author>
+        <category label="更新" term="更新"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0.2.6]]></title>
+        <id>https://lvyjs.dev/lvyjs.dev/blog/2024/12/16/releases/0.2.6</id>
+        <link href="https://lvyjs.dev/lvyjs.dev/blog/2024/12/16/releases/0.2.6"/>
+        <updated>2024-12-16T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[更新]]></summary>
+        <content type="html"><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>优化运行时构建速度</li>
+<li>简化插件配置</li>
+<li>支持与CSS处理器</li>
+</ul>]]></content>
+        <author>
+            <name/>
+            <email>ningmengchongshui@gmail.com</email>
+            <uri>https://github.com/ningmengchongshui</uri>
+        </author>
+        <category label="更新" term="更新"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0.1.1]]></title>
+        <id>https://lvyjs.dev/lvyjs.dev/blog/2024/10/25/releases/0.1.1</id>
+        <link href="https://lvyjs.dev/lvyjs.dev/blog/2024/10/25/releases/0.1.1"/>
+        <updated>2024-10-25T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[更新]]></summary>
+        <content type="html"><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>增加参数 --no-watch 参数，禁用 watch 模式</li>
+</ul>]]></content>
+        <author>
+            <name/>
+            <email>ningmengchongshui@gmail.com</email>
+            <uri>https://github.com/ningmengchongshui</uri>
+        </author>
+        <category label="更新" term="更新"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[0.1.0]]></title>
+        <id>https://lvyjs.dev/lvyjs.dev/blog/2024/10/17/releases/0.1.0</id>
+        <link href="https://lvyjs.dev/lvyjs.dev/blog/2024/10/17/releases/0.1.0"/>
+        <updated>2024-10-17T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[更新]]></summary>
+        <content type="html"><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>初版发布</li>
+</ul>]]></content>
+        <author>
+            <name/>
+            <email>ningmengchongshui@gmail.com</email>
+            <uri>https://github.com/ningmengchongshui</uri>
+        </author>
+        <category label="更新" term="更新"/>
+    </entry>
+</feed>

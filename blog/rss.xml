@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>LvyJS Blog</title>
+        <link>https://lvyjs.dev/lvyjs.dev/blog</link>
+        <description>LvyJS Blog</description>
+        <lastBuildDate>Fri, 04 Apr 2025 00:00:00 GMT</lastBuildDate>
+        <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
+        <generator>https://github.com/jpmonette/feed</generator>
+        <language>en</language>
+        <item>
+            <title><![CDATA[0.2.18]]></title>
+            <link>https://lvyjs.dev/lvyjs.dev/blog/2025/04/04/releases/0.2.18</link>
+            <guid>https://lvyjs.dev/lvyjs.dev/blog/2025/04/04/releases/0.2.18</guid>
+            <pubDate>Fri, 04 Apr 2025 00:00:00 GMT</pubDate>
+            <description><![CDATA[更新]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>
+<p>修复路径码</p>
+</li>
+<li>
+<p>修复tsx路径查询失败</p>
+</li>
+<li>
+<p>新增打印信息</p>
+</li>
+</ul>]]></content:encoded>
+            <category>更新</category>
+        </item>
+        <item>
+            <title><![CDATA[0.2.6]]></title>
+            <link>https://lvyjs.dev/lvyjs.dev/blog/2024/12/16/releases/0.2.6</link>
+            <guid>https://lvyjs.dev/lvyjs.dev/blog/2024/12/16/releases/0.2.6</guid>
+            <pubDate>Mon, 16 Dec 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[更新]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>优化运行时构建速度</li>
+<li>简化插件配置</li>
+<li>支持与CSS处理器</li>
+</ul>]]></content:encoded>
+            <category>更新</category>
+        </item>
+        <item>
+            <title><![CDATA[0.1.1]]></title>
+            <link>https://lvyjs.dev/lvyjs.dev/blog/2024/10/25/releases/0.1.1</link>
+            <guid>https://lvyjs.dev/lvyjs.dev/blog/2024/10/25/releases/0.1.1</guid>
+            <pubDate>Fri, 25 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[更新]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>增加参数 --no-watch 参数，禁用 watch 模式</li>
+</ul>]]></content:encoded>
+            <category>更新</category>
+        </item>
+        <item>
+            <title><![CDATA[0.1.0]]></title>
+            <link>https://lvyjs.dev/lvyjs.dev/blog/2024/10/17/releases/0.1.0</link>
+            <guid>https://lvyjs.dev/lvyjs.dev/blog/2024/10/17/releases/0.1.0</guid>
+            <pubDate>Thu, 17 Oct 2024 00:00:00 GMT</pubDate>
+            <description><![CDATA[更新]]></description>
+            <content:encoded><![CDATA[<table><thead><tr><th>Project</th><th>Status</th><th>Description</th></tr></thead><tbody><tr><td><a href="https://github.com/lvyjs/core" target="_blank" rel="noopener noreferrer">lvyjs</a></td><td><a href="https://www.npmjs.com/package/lvyjs" target="_blank" rel="noopener noreferrer"><img decoding="async" loading="lazy" src="https://img.shields.io/npm/v/lvyjs.svg" alt="lvyjs-s" class="img_ev3q"></a></td><td>打包构建工具</td></tr></tbody></table>
+<ul>
+<li>初版发布</li>
+</ul>]]></content:encoded>
+            <category>更新</category>
+        </item>
+    </channel>
+</rss>
