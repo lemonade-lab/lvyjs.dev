@@ -35,10 +35,6 @@ jobs:
       - name: build
         run: yarn build
 
-      - name: prepare docs
-        run: |
-          echo 'lvyjs.dev' > build/CNAME
-
       - name: push docs
         run: |
           cd build/
